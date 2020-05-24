@@ -1,0 +1,198 @@
+/*.parent{
+	background: tomato;
+	width: 200;
+}
+.child{
+	background:khaki;
+	width:50%;
+}*/
+
+
+
+
+
+/*MEDIA QUERY*/
+
+/*:root {
+	font-size: 25px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #D8D8D8;
+
+}
+
+.container-font{
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+}
+
+.container {
+	margin: 5vw;
+
+}
+.container-item{
+	background-color: #3F3FBF;
+}
+
+
+/*MEDIA QUERY */
+
+
+/*@media screen and (min-width: 786px){
+	.container-item{
+		height: 30vw;
+		background-color: #3F3FBF;
+
+	}
+	.container-font{
+		font-size: 2rem;
+		color: white;
+
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.container-item{
+		height: 60vw;
+		background-color: #068400;
+	}
+	.container-font{
+		font-size:1.5rem;
+		color:pink;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container-item{
+		height: 120vw;
+		background-color: #EA0008;
+
+	}
+	.container-font{
+		font-size: 1rem;
+		color: green;
+
+	}
+}*/
+
+
+
+
+
+
+/*FELX BOX*/
+
+/*.my-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #D8D8D8;
+}
+
+.container-item{
+	height: 300px;
+
+}
+.myFont{
+	font-size: 50px;
+	color: white;
+
+}
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red
+}
+.green{
+	background-color: green;
+}
+.black{
+	background-color: black;
+}
+
+@media screen and (min-width: 768px)
+{
+	.blue{
+		width:50%;
+	}
+	.red{
+		width:50%;
+	}
+	.green{
+		width:50%;
+	}
+	.black{
+		width:50%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+{
+	.blue{
+		width:50%;
+	}
+	.red{
+		width:50%;
+	}
+	.green{
+		width:100%;
+	}
+	.black{
+		width:100%;
+	}
+}
+
+
+@media screen and (max-width: 480px) 
+{
+	.blue{
+		width:100%;
+	}
+	.red{
+		width:100%;
+	}
+	.green{
+		width:100%;
+	}
+	.black{
+		width:100%;
+	}
+}*/
+
+
+
+
+/*FLEX BOX PROPERTIES*/
+
+
+
+.my-container{
+	display:flex;
+	align-items: flex-end;
+	width:100%;
+	border-color: red;
+	border-width: 1px;
+	border-style: solid;
+	height:300px;
+
+}
+.myFont{
+	text-align: center;
+	font-size: 40px;
+	color:white;
+	font-weight:bolder;
+
+}
+
+.container-item{
+	margin: 1%;
+	background-color: blue;
+	width:100%;
+	height:30%;
+
+}
